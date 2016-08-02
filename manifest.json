@@ -1,0 +1,45 @@
+// MANIFEST specifies important information
+{
+	//Required
+	"manifest_version": 2, // for most updated versin put 2
+
+	"name": "example extension", // short name option as well
+	"description": "This extension shows a google image search for the current page",
+	"version": "1.0",
+
+	// browser actions - button next to address bar
+	
+	"browser_action": {
+		"default_icon": "icon.png"
+		//"default_popup": "popup.html"
+	},
+
+	
+	"permissions": [
+		"activeTab"
+		//"https://ajax.googleapis.com/"
+		//"<all_urls>"
+	],
+	
+
+	
+	// inject content.js (popup) into every page we visit (context)
+	/*
+	"content_scripts": [
+		{
+			"matches": [
+				"<all_urls>"
+			],
+			"js": ["content.js"]
+		}
+	],
+	*/
+
+	// BACKGROUND SCRIPT * has access to every Chrome API but no access to current page
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false // this makes it an event page as opposed to a constant background page
+	}
+}
+
+
