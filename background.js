@@ -12,20 +12,23 @@ chrome.tabs.onCreated.addListener( function(tab){
 	changeBackground();
 })
 */
+
 /* Listen for message */
 chrome.runtime.onMessage.addListener(
 	function(request, sender, sendResponse){
-		// if message matches, call changeBackground function
+		// if message matches, call pickNewCountry function
 		if (request.greeting == "This is a request") {
-			console.log("Request received");
-			country = changeBackground();
-			console.log(country);
+			var country = pickNewCountry();
+			console.log("Request received. Country picked is " + country);
+			// send response back to override.js
 			sendResponse({country});
 		}
 	});
 
+/* Uses random number generator to pick a random country from list */
 function pickNewCountry(){
 	//list of all countries recognized by United States 
+	// images currently downloaded from PixaBay (royalty-free)
 	var countries = ["Afghanistan", "Albania", "Algeria", "Andorra", "Angola", 
 	"Antigua+and+Barbuda", "Argentina", "Armenia", "Australia", "Austria", 
 	"Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", 
@@ -61,23 +64,27 @@ function pickNewCountry(){
 	// pick a number
 	var randNumber = numberGenerator();
 	// search country on google maps 
-	//chrome.tabs.update(null, {url: "http://google.com/maps/place/" + countries[randNumber]});
 	console.log(countries[randNumber]);
-	//return countries[randNumber];
-	return "United+States";
+
+	return countries[randNumber];
+	//return "United+States"; 
+
+	//chrome.tabs.update(null, {url: "http://google.com/maps/place/" + countries[randNumber]});
 }
 
 // function numberGenerator returns number between 0-194 
 function numberGenerator() {
-	return Math.floor(Math.random() * 195);
+	return Math.floor(Math.random() * 12);
+	//return Math.floor(Math.random() * 195);
 }
 
+/* Maybe this function is not needed 
 function changeBackground(){
 	console.log("change background func");
-	document.body.style.backgroundImage = "url(" + pickNewCountry() + ".jpg)";
+	//document.body.style.backgroundImage = "url(" + pickNewCountry() + ".jpg)";
 	alert(document.body.style.backgroundImage);
 	return "United+States";
 }
-
+*/
 
 
