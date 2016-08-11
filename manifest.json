@@ -42,7 +42,7 @@
 		"scripts": ["background.js"],
 		"persistent": false // this makes it an event page as opposed to a constant background page
 	}
-	
+
 }
 
 

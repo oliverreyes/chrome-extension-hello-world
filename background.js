@@ -1,4 +1,28 @@
+/*
+document.addEventListener('DOMContentLoaded', function() {
+	//console.log(frames[0])
+	console.log("went to listener");
+	changeBackground();
+}) */
 
+//window.onload = changeBackground();
+/*
+chrome.tabs.onCreated.addListener( function(tab){
+	console.log("activated");
+	changeBackground();
+})
+*/
+/* Listen for message */
+chrome.runtime.onMessage.addListener(
+	function(request, sender, sendResponse){
+		// if message matches, call changeBackground function
+		if (request.greeting == "This is a request") {
+			console.log("Request received");
+			country = changeBackground();
+			console.log(country);
+			sendResponse({country});
+		}
+	});
 
 function pickNewCountry(){
 	//list of all countries recognized by United States 
@@ -49,11 +73,11 @@ function numberGenerator() {
 }
 
 function changeBackground(){
-	var wallpaper = document.getElementById("bg");
-	console.log(wallpaper);
-	wallpaper.style.backgroundImage = "url(" + pickNewCountry() + ").jpg";
-	//var cssDoc = documents.styleSheets; // returns object StyleSheetList
+	console.log("change background func");
+	document.body.style.backgroundImage = "url(" + pickNewCountry() + ".jpg)";
+	alert(document.body.style.backgroundImage);
+	return "United+States";
 }
 
-changeBackground();
+
 
