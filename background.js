@@ -27,8 +27,11 @@ chrome.runtime.onMessage.addListener(
 
 /* Uses random number generator to pick a random country from list */
 function pickNewCountry(){
+	
+
+	
 	//list of all countries recognized by United States 
-	// images currently downloaded from PixaBay (royalty-free)
+	// images currently downloaded from PixaBay (royalty-free) or Flickr (links in notes)
 	var countries = ["Afghanistan", "Albania", "Algeria", "Andorra", "Angola", 
 	"Antigua+and+Barbuda", "Argentina", "Armenia", "Australia", "Austria", 
 	"Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", 
@@ -74,7 +77,7 @@ function pickNewCountry(){
 
 // function numberGenerator returns number between 0-194 
 function numberGenerator() {
-	return Math.floor(Math.random() * 12);
+	return Math.floor(Math.random() * 29);
 	//return Math.floor(Math.random() * 195);
 }
 

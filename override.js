@@ -5,8 +5,8 @@ function init(){
 		console.log("Response received:" + response.country);
 		document.body.style.backgroundImage = "url(images/" + response.country + ".jpg)";
 		document.body.style.backgroundSize = "cover";
-		var div = getElementById("body");
-		div.textContent = response.country;
+		document.getElementById('name').innerHTML = response.country;
+		console.log("it passed it");
 		//document.body.style.backgroundImage = "url(United+States.jpg)";
 	});
 }
