@@ -8,6 +8,8 @@ function init(){
 		document.body.style.backgroundImage = "url(images/" + response.result.url + ".jpg)";
 		document.body.style.backgroundSize = "cover";
 		document.getElementById('name').innerHTML = response.result.name;
+		document.getElementById('pop').innerHTML = response.result.pop;
+
 		console.log("it passed it");
 		//document.body.style.backgroundImage = "url(United+States.jpg)";
 	});
