@@ -1,17 +1,3 @@
-/*
-document.addEventListener('DOMContentLoaded', function() {
-	//console.log(frames[0])
-	console.log("went to listener");
-	changeBackground();
-}) */
-
-//window.onload = changeBackground();
-/*
-chrome.tabs.onCreated.addListener( function(tab){
-	console.log("activated");
-	changeBackground();
-})
-*/
 
 /* Listen for message */
 chrome.runtime.onMessage.addListener(
@@ -459,7 +445,8 @@ function pickNewCountry(){
 	"Zambia", "Zimbabwe"];
 */
 	// pick a number
-	var randNum = numberGenerator(countryObj.countries.length);
+	//var randNum = numberGenerator(countryObj.countries.length);
+	var randNum = numberGenerator(15);
 	//var randFact = numberGenerator(countryObj.countries[randNum].facts.length);
 	//var randImg = numberGenerator(countryObj.countries[randNum].url.length);
 	// search country on google maps 

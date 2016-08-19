@@ -1,5 +1,13 @@
-#bg {
-	/* background: url(united-states.jpg); */
-	/*background-size: cover;
-	background-repeat: no-repeat; */
-}
+/*html {
+	padding: 0px;
+	margin: 0px;
+} */
+
+/* set background image to full window */
+#bg-img {
+ 	height: 100%;
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0; 
+} 
