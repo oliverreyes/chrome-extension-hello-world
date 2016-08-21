@@ -13,29 +13,13 @@
 	// browser actions - button next to address bar
 	"browser_action": {
 		"default_icon": "icon.png"
-		//"default_popup": "popup.html"
 	},
 
 	
 	"permissions": [
 		"tabs",
 		"activeTab"
-		//"<all_urls>"
 	],
-	
-
-	
-	// inject content.js (popup) into every page we visit (context)
-	/*
-	"content_scripts": [
-		{
-			"matches": [
-				"<all_urls>"
-			],
-			"js": ["content.js"]
-		}
-	],
-	*/
 
 	// BACKGROUND SCRIPT has access to every Chrome API but no access to current page
 	"background": {

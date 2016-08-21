@@ -1,7 +1,7 @@
-/*html {
-	padding: 0px;
-	margin: 0px;
-} */
+html {
+	padding: 0;
+	margin: 0;
+} 
 
 /* set background image to full window */
 #bg-img {
@@ -10,4 +10,26 @@
 	position: absolute;
 	top: 0;
 	left: 0; 
+	z-index: -1;
 } 
+
+#name {
+	position: absolute;
+	bottom: 55px;
+	left: 30px;
+	font-family: "Tahoma", Geneva, sans-serif;
+	color: white;
+	font-size: 48pt;
+	text-shadow: 0 0 2px gray;
+	line-height: 0;
+}
+
+#pop {
+	position: absolute;
+	bottom: 9px;
+	left: 125px;
+	color: white;
+	font-size: 24pt;
+	text-shadow: 0 0 1px gray;
+	line-height: 0;
+}

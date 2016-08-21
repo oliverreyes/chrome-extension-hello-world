@@ -15,7 +15,7 @@ chrome.runtime.onMessage.addListener(
 function pickNewCountry(){
 	// create JSON Object to store country information
 	var countryObj = { "countries": [
-		{"name":"Afghanistan", "pop":"32.53 Million", "url":"Afghanistan", "link":" ", "author":" ", 
+		{"name":"Afghanistan", "pop":"32.53 Million", "url":"Afghanistan", "link":"http://tinyurl.com/zbwtb8u", "author":"Ricardo Mangual", 
 			"facts":["fun","great"]},
 		{"name":"Albania", "pop":"2.89 Million", "url": "Albania", "link":" ", "author":" ", 
 			"facts":["kinda fun","kinda great"]},
@@ -171,7 +171,7 @@ function pickNewCountry(){
 			"facts":["a","b"]},
 		{"name":"Indonesia", "pop":"257.56 Million", "url":"Indonesia", "link":" ", "author":" ", 
 			"facts":["a","b"]},
-		{"name":"Iran", "pop":"79.11 Million", "url":"Iran", "link":" ", "author":" ", 
+		{"name":"Iran", "pop":"79.11 Million", "url":"Iran", "link":"http://tinyurl.com/jmyeya8", "author":"Michael Foley", 
 			"facts":["a","b"]},
 		{"name":"Iraq", "pop":"36.42 Million", "url":"Iraq", "link":" ", "author":" ", 
 			"facts":["a","b"]},

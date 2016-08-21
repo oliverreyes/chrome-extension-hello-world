@@ -4,11 +4,16 @@ function init(){
 		console.log("Response received:" + response.result.name);
 		console.log(response.result.factNum);
 		console.log("Fact is " + response.result.facts[response.factNum]);
+		// make variables
+		var bg = document.getElementById('bg-img');
+		var name = document.getElementById('name');
+		var pop = document.getElementById('pop');
 		// set image, cover keeps aspect ratio
-		document.getElementById("bg-img").style.backgroundImage = "url(images/" + response.result.url + ".jpg)";
-		document.getElementById("bg-img").style.backgroundSize = "cover";
-		document.getElementById('name').innerHTML = response.result.name;
-		document.getElementById('pop').innerHTML = response.result.pop;
+		bg.style.backgroundImage = "url(images/" + response.result.url + ".jpg)";
+		bg.style.backgroundSize = "cover";
+		// country name text font characteristics 
+		name.innerHTML = "<h1>" + response.result.name + "</h1>";
+		pop.innerHTML = "<h3>Population of " + response.result.pop + "</h3>";
 
 		console.log("it passed it");
 	});
