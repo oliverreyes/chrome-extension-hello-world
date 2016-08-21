@@ -33,3 +33,12 @@ html {
 	text-shadow: 0 0 1px gray;
 	line-height: 0;
 }
+
+#att {
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	font-family: "Tahoma", Geneva, sans-serif;
+	font-size: 12pt;
+	color: white;
+}
