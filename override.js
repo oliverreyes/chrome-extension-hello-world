@@ -12,9 +12,15 @@ function init(){
 		// set image, cover keeps aspect ratio
 		bg.style.backgroundImage = "url(images/" + response.result.url + ".jpg)";
 		// country name text font characteristics 
-		if (response.result.name.length > 14) {
+		if (response.result.name.length > 19) {
 			name.innerHTML = "<h1>" + response.result.name + "</h1>";
-			name.style.fontSize = "40pt";
+			name.style.fontSize = "27pt";
+			name.style.wordSpacing = "-9px";
+			name.style.lineHeight = "0.4";
+		}
+		else if (response.result.name.length > 11) {
+			name.innerHTML = "<h1>" + response.result.name + "</h1>";
+			name.style.fontSize = "38pt";
 			name.style.wordSpacing = "-9px";
 		}
 		else {

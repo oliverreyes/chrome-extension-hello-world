@@ -91,17 +91,17 @@ function pickNewCountry(){
 			"facts":["a","b"]},
 		{"name":"Colombia", "pop":"48.23 Million", "url":"Colombia", "link":"http://tinyurl.com/je7u4hg", "author":"Alexander Schimmeck", "cc":"-nc-nd", 
 			"facts":["a","b"]},
-		{"name":"Comoros", "pop":"788,000", "url":"Comoros", "link":" ", "author":" ", "cc":"", 
+		{"name":"Comoros", "pop":"788,000", "url":"Comoros", "link":"http://tinyurl.com/hkglwdk", "author":"Chamara Irugalratne", "cc":"-nc-nd", 
 			"facts":["a","b"]},
-		{"name":"Democratic Republic of the Congo", "pop":"77.27 Million", "url":"Democratic+Republic+of+the+Congo", "link":" ", "author":" ", "cc":"", 
+		{"name":"Democratic Republic of the Congo", "pop":"77.27 Million", "url":"Democratic+Republic+of+the+Congo", "link":"http://tinyurl.com/jr5hbws", "author":"Tom Jutte", "cc":"-nc-nd", 
 			"facts":["a","b"]},
-		{"name":"Republic of the Congo", "pop":"4.62 Million", "url":"Republic+of+the+Congo", "link":" ", "author":" ", "cc":"", 
+		{"name":"Republic of the Congo", "pop":"4.62 Million", "url":"Republic+of+the+Congo", "link":"http://tinyurl.com/hbzfqh3", "author":"Paul Godard", "cc":"-nc-nd", 
 			"facts":["a","b"]},
-		{"name":"Costa Rica", "pop":"4.81 Million", "url":"Costa+Rica", "link":" ", "author":" ", "cc":"", 
+		{"name":"Costa Rica", "pop":"4.81 Million", "url":"Costa+Rica", "link":"http://tinyurl.com/go6ffs3", "author":"Ralph Earlandson", "cc":"-nc-sa", 
 			"facts":["a","b"]},
-		{"name":"Cote d'Ivoire", "pop":"22.7 Million", "url":"Cote+d'Ivoire", "link":" ", "author":" ", "cc":"", 
+		{"name":"Cote d'Ivoire", "pop":"22.7 Million", "url":"Cote+dIvoire", "link":"http://tinyurl.com/gsewwhw", "author":"Guillaume Mignot", "cc":"-nc-nd", 
 			"facts":["a","b"]},
-		{"name":"Croatia", "pop":"4.22 Million", "url":"Croatia", "link":" ", "author":" ", "cc":"", 
+		{"name":"Croatia", "pop":"4.22 Million", "url":"Croatia", "link":"http://tinyurl.com/zcqag9g", "author":"Erin Johnson", "cc":"-nc", 
 			"facts":["a","b"]},
 		{"name":"Cuba", "pop":"11.39 Million", "url":"Cuba", "link":" ", "author":" ", "cc":"", 
 			"facts":["a","b"]},
@@ -455,7 +455,7 @@ function pickNewCountry(){
 	console.log("Fact is " + countryObj.countries[randNum].facts[countryObj.countries.factNum]);
 
 	// CHANGE THIS AT END TO randNum
-	return countryObj.countries[37];
+	return countryObj.countries[43];
 	//chrome.tabs.update(null, {url: "http://google.com/maps/place/" + countries[randNumber]});
 }
 
