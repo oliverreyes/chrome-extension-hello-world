@@ -17,79 +17,79 @@ function pickNewCountry(){
 	var countryObj = { "countries": [
 		{"name":"Afghanistan", "pop":"32.53 Million", "url":"Afghanistan", "link":"http://tinyurl.com/zbwtb8u", "author":"Ricardo Mangual", "cc":"",
 			"facts":["fun","great"]},
-		{"name":"Albania", "pop":"2.89 Million", "url": "Albania", "link":" ", "author":" ", "cc":"",
+		{"name":"Albania", "pop":"2.89 Million", "url": "Albania", "link":"http://tinyurl.com/glmecmx", "author":"Websi", "cc":"",
 			"facts":["kinda fun","kinda great"]},
-		{"name":"Algeria", "pop":"39.67 Million", "url":"Algeria", "link":" ", "author":" ", "cc":"",
+		{"name":"Algeria", "pop":"39.67 Million", "url":"Algeria", "link":"http://tinyurl.com/gktdetz", "author":"Hichem Merouche", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Andorra", "pop":"70,000", "url":"Andorra", "link":" ", "author":" ", "cc":"",
+		{"name":"Andorra", "pop":"70,000", "url":"Andorra", "link":"http://tinyurl.com/j3c2nks", "author":"Miquel Fabre", "cc":"-nc-nd",
 			"facts":["a","b"]},
-		{"name":"Angola", "pop":"25.02 Million", "url":"Angola", "link":" ", "author":" ", "cc":"",
+		{"name":"Angola", "pop":"25.02 Million", "url":"Angola", "link":"http://tinyurl.com/z3g84us", "author":"jbdodane", "cc":"-nc",
 			"facts":["a","b"]},
-		{"name":"Antigua and Barbuda", "pop":"91,000", "url":"Antigua+and+Barbuda", "link":" ", "author":" ", "cc":"",
+		{"name":"Antigua and Barbuda", "pop":"91,000", "url":"Antigua+and+Barbuda", "link":"http://tinyurl.com/gwmwf8e", "author":"Andrew Moore", "cc":"-sa",
 			"facts":["a","b"]},
-		{"name":"Argentina", "pop":"43.42 Million", "url":"Argentina", "link":" ", "author":" ", "cc":"", 
+		{"name":"Argentina", "pop":"43.42 Million", "url":"Argentina", "link":"http://tinyurl.com/hxjz3zx", "author":"marc cornelis", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Armenia", "pop":"3.02 Million", "url":"Armenia", "link":" ", "author":" ", "cc":"", 
+		{"name":"Armenia", "pop":"3.02 Million", "url":"Armenia", "link":"http://tinyurl.com/jpm4mvg", "author":"Dmitry", "cc":"-nc", 
 			"facts":["a","b"]},
-		{"name":"Australia", "pop":"23.78 Million", "url":"Australia", "link":" ", "author":" ", "cc":"", 
+		{"name":"Australia", "pop":"23.78 Million", "url":"Australia", "link":"http://tinyurl.com/z8to2bf", "author":"Lenny K Photography", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Austria", "pop":"8.61 Million", "url":"Austria", "link":" ", "author":" ", "cc":"", 
+		{"name":"Austria", "pop":"8.61 Million", "url":"Austria", "link":"http://tinyurl.com/gum5v3w", "author":"Bernd Thaller", "cc":"-nc", 
 			"facts":["a","b"]},
-		{"name":"Azerbaijan", "pop":"9.65 Million", "url":"Azerbaijan", "link":" ", "author":" ", "cc":"", 
+		{"name":"Azerbaijan", "pop":"9.65 Million", "url":"Azerbaijan", "link":"http://tinyurl.com/hts4tww", "author":"Bs0u10e0", "cc":"-sa", 
 			"facts":["a","b"]},
-		{"name":"Bahamas", "pop":"388,000", "url":"Bahamas", "link":" ", "author":" ", "cc":"", 
+		{"name":"Bahamas", "pop":"388,000", "url":"Bahamas", "link":"http://tinyurl.com/zy46lj6", "author":"photos_mweber", "cc":"-nc", 
 			"facts":["a","b"]},
-		{"name":"Bahrain", "pop":"1.38 Million", "url":"Bahrain", "link":" ", "author":" ", "cc":"", 
+		{"name":"Bahrain", "pop":"1.38 Million", "url":"Bahrain", "link":"http://tinyurl.com/zypvq8u", "author":"Wacky Toyo Boy Borj", "cc":"-nc-nd", 
 			"facts":["a","b"]},
-		{"name":"Bangladesh", "pop":"161 Million", "url":"Bangladesh", "link":" ", "author":" ", "cc":"", 
+		{"name":"Bangladesh", "pop":"161 Million", "url":"Bangladesh", "link":"http://tinyurl.com/zn8y62h", "author":"Aftab Uzzaman", "cc":"-nc", 
 			"facts":["a","b"]},
-		{"name":"Barbados", "pop":"284,000", "url":"Barbados", "link":" ", "author":" ", "cc":"", 
+		{"name":"Barbados", "pop":"284,000", "url":"Barbados", "link":"http://tinyurl.com/gtj9bym", "author":"Tuukka Rantamäki", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Belarus", "pop":"9.51 Million", "url":"Belarus", "link":" ", "author":" ", "cc":"", 
+		{"name":"Belarus", "pop":"9.51 Million", "url":"Belarus", "link":"http://tinyurl.com/gtc52rg", "author":"Viktor Kirilko", "cc":"-nc-nd", 
 			"facts":["a","b"]},
-		{"name":"Belgium", "pop":"11.29 Million", "url":"Belgium", "link":" ", "author":" ", "cc":"", 
+		{"name":"Belgium", "pop":"11.29 Million", "url":"Belgium", "link":"http://tinyurl.com/h4rmy5v", "author":"RobinTphoto", "cc":"-nc-nd", 
 			"facts":["a","b"]},
-		{"name":"Belize", "pop":"359,000", "url":"Belize", "link":" ", "author":" ", "cc":"", 
+		{"name":"Belize", "pop":"359,000", "url":"Belize", "link":"http://tinyurl.com/jextc8p", "author":"f. ermert", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Benin", "pop":"10.88 Million", "url":"Benin", "link":" ", "author":" ", "cc":"", 
+		{"name":"Benin", "pop":"10.88 Million", "url":"Benin", "link":"http://tinyurl.com/gtxtw6r", "author":"Shubert Ciencia", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Bhutan", "pop":"774,000", "url":"Bhutan", "link":" ", "author":" ", "cc":"", 
+		{"name":"Bhutan", "pop":"774,000", "url":"Bhutan", "link":"http://tinyurl.com/zyev425", "author":"Inga Vitola", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Bolivia", "pop":"10.72 Million", "url":"Bolivia", "link":" ", "author":" ", "cc":"", 
+		{"name":"Bolivia", "pop":"10.72 Million", "url":"Bolivia", "link":"http://tinyurl.com/zf6au6m", "author":"roman korzh", "cc":"-nc-nd", 
 			"facts":["a","b"]},
-		{"name":"Bosnia and Herzegovina", "pop":"3.81 Million", "url":"Bosnia+and+Herzegovina", "link":" ", "author":" ", "cc":"", 
+		{"name":"Bosnia and Herzegovina", "pop":"3.81 Million", "url":"Bosnia+and+Herzegovina", "link":"http://tinyurl.com/gt9as4b", "author":"Ivana Vasilj", "cc":"-nc-nd", 
 			"facts":["a","b"]},
-		{"name":"Botswana", "pop":"2.26 Million", "url":"Botswana", "link":" ", "author":" ", "cc":"", 
+		{"name":"Botswana", "pop":"2.26 Million", "url":"Botswana", "link":"http://tinyurl.com/j8hwfzu", "author":"Aftab Uzzaman", "cc":"-nc", 
 			"facts":["a","b"]},
-		{"name":"Brazil", "pop":"207.85 Million", "url":"Brazil", "link":" ", "author":" ", "cc":"", 
+		{"name":"Brazil", "pop":"207.85 Million", "url":"Brazil", "link":"http://tinyurl.com/hesyhux", "author":"SF Brit", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Brunei", "pop":"423,000", "url":"Brunei", "link":" ", "author":" ", "cc":"", 
+		{"name":"Brunei", "pop":"423,000", "url":"Brunei", "link":"http://tinyurl.com/gl4asxs", "author":"henrykkcheung", "cc":"-nc-nd", 
 			"facts":["a","b"]},
-		{"name":"Bulgaria", "pop":"7.18 Million", "url":"Bulgaria", "link":" ", "author":" ", "cc":"", 
+		{"name":"Bulgaria", "pop":"7.18 Million", "url":"Bulgaria", "link":"http://tinyurl.com/gmef6gz", "author":"Dennis Jarvis", "cc":"-sa", 
 			"facts":["a","b"]},
-		{"name":"Burkina Faso", "pop":"18.11 Million", "url":"Burkina+Faso", "link":" ", "author":" ", "cc":"", 
+		{"name":"Burkina Faso", "pop":"18.11 Million", "url":"Burkina+Faso", "link":"http://tinyurl.com/h4a82zg", "author":"Guillaume Colin & Pauline Penot", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Burma (Myanmar)", "pop":"53.9 Million", "url":"Burma", "link":" ", "author":" ", "cc":"", 
+		{"name":"Burma (Myanmar)", "pop":"53.9 Million", "url":"Burma", "link":"http://tinyurl.com/hkakcws", "author":"Alexander Mueller", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Burundi", "pop":"11.18 Million", "url":"Burundi", "link":" ", "author":" ", "cc":"", 
+		{"name":"Burundi", "pop":"11.18 Million", "url":"Burundi", "link":"http://tinyurl.com/zcrqhat", "author":"Christine Vaufrey", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Cabo Verde", "pop":"520,000", "url":"Cabo+Verde", "link":" ", "author":" ", "cc":"", 
+		{"name":"Cabo Verde", "pop":"520,000", "url":"Cabo+Verde", "link":"http://tinyurl.com/glh4nvr", "author":"Caroline Granycome", "cc":"-sa", 
 			"facts":["a","b"]},
-		{"name":"Cambodia", "pop":"15.58 Million", "url":"Cambodia", "link":" ", "author":" ", "cc":"", 
+		{"name":"Cambodia", "pop":"15.58 Million", "url":"Cambodia", "link":"http://tinyurl.com/gl64r4t", "author":"Fougerouse Arnaud", "cc":"-nc", 
 			"facts":["a","b"]},
-		{"name":"Cameroon", "pop":"23.34 Million", "url":"Cameroon", "link":" ", "author":" ", "cc":"", 
+		{"name":"Cameroon", "pop":"23.34 Million", "url":"Cameroon", "link":"http://tinyurl.com/j4j3egw", "author":"Ludwig Tröller", "cc":"-nc", 
 			"facts":["a","b"]},
-		{"name":"Canada", "pop":"35.85 Million", "url":"Canada", "link":" ", "author":" ", "cc":"", 
+		{"name":"Canada", "pop":"35.85 Million", "url":"Canada", "link":"http://tinyurl.com/hfz6pag", "author":"Thank you for visiting my page", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Central African Republic", "pop":"4.9 Million", "url":"Central+African+Republic", "link":" ", "author":" ", "cc":"", 
+		{"name":"Central African Republic", "pop":"4.9 Million", "url":"Central+African+Republic", "link":"http://tinyurl.com/hneakg7", "author":"LM TP", "cc":"-nc", 
 			"facts":["a","b"]},
-		{"name":"Chad", "pop":"14.04 Million", "url":"Chad", "link":" ", "author":" ", "cc":"", 
+		{"name":"Chad", "pop":"14.04 Million", "url":"Chad", "link":"http://tinyurl.com/zmmyulp", "author":"David Stanley", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Chile", "pop":"17.95 Million", "url":"Chile", "link":" ", "author":" ", "cc":"", 
+		{"name":"Chile", "pop":"17.95 Million", "url":"Chile", "link":"http://tinyurl.com/z9jbml7", "author":"Mariano Mantel", "cc":"-nc", 
 			"facts":["a","b"]},
-		{"name":"China", "pop":"1.37 Billion", "url":"China", "link":" ", "author":" ", "cc":"", 
+		{"name":"China", "pop":"1.37 Billion", "url":"China", "link":"http://tinyurl.com/z2crn2n", "author":"dove lee", "cc":"-nc-nd", 
 			"facts":["a","b"]},
-		{"name":"Colombia", "pop":"48.23 Million", "url":"Colombia", "link":" ", "author":" ", "cc":"", 
+		{"name":"Colombia", "pop":"48.23 Million", "url":"Colombia", "link":"http://tinyurl.com/je7u4hg", "author":"Alexander Schimmeck", "cc":"-nc-nd", 
 			"facts":["a","b"]},
 		{"name":"Comoros", "pop":"788,000", "url":"Comoros", "link":" ", "author":" ", "cc":"", 
 			"facts":["a","b"]},
@@ -409,9 +409,6 @@ function pickNewCountry(){
 	};
 
 /*
-	//list of all countries recognized by United States 
-	// images currently downloaded from PixaBay (royalty-free) or Flickr (links in notes)
-
 	var countries = ["Afghanistan", "Albania", "Algeria", "Andorra", "Angola", 
 	"Antigua+and+Barbuda", "Argentina", "Armenia", "Australia", "Austria", 
 	"Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", 
@@ -446,7 +443,7 @@ function pickNewCountry(){
 */
 	// pick a number
 	//var randNum = numberGenerator(countryObj.countries.length);
-	var randNum = numberGenerator(15);
+	var randNum = numberGenerator(26);
 	//var randFact = numberGenerator(countryObj.countries[randNum].facts.length);
 	//var randImg = numberGenerator(countryObj.countries[randNum].url.length);
 	// search country on google maps 
@@ -454,16 +451,11 @@ function pickNewCountry(){
 
 	countryObj.countries["factNum"] = numberGenerator(countryObj.countries[randNum].facts.length); // MIGHT HAVE TO DO IN OVERRIDE.JS
 
-	console.log("Name is " + countryObj.countries[randNum].name);
-	console.log("Pop is " + countryObj.countries[randNum].pop);
 	console.log("Length is " + countryObj.countries.length);
 	console.log("Fact is " + countryObj.countries[randNum].facts[countryObj.countries.factNum]);
 
-
-	return countryObj.countries[randNum];
-	//return countries[randNum];
-	//return "United+States"; 
-
+	// CHANGE THIS AT END TO randNum
+	return countryObj.countries[37];
 	//chrome.tabs.update(null, {url: "http://google.com/maps/place/" + countries[randNumber]});
 }
 
