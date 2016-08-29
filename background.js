@@ -103,25 +103,25 @@ function pickNewCountry(){
 			"facts":["a","b"]},
 		{"name":"Croatia", "pop":"4.22 Million", "url":"Croatia", "link":"http://tinyurl.com/zcqag9g", "author":"Erin Johnson", "cc":"-nc", 
 			"facts":["a","b"]},
-		{"name":"Cuba", "pop":"11.39 Million", "url":"Cuba", "link":" ", "author":" ", "cc":"", 
+		{"name":"Cuba", "pop":"11.39 Million", "url":"Cuba", "link":"http://tinyurl.com/jorf8vf", "author":"Bud Ellison", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Cyprus", "pop":"1.17 Million", "url":"Cyprus", "link":" ", "author":" ", "cc":"", 
+		{"name":"Cyprus", "pop":"1.17 Million", "url":"Cyprus", "link":"http://tinyurl.com/gp5jtev", "author":"Tobias Van Der Elst", "cc":"-sa", 
 			"facts":["a","b"]},
-		{"name":"Czechia", "pop":"10.55 Million", "url":"Czechia", "link":" ", "author":" ", "cc":"", 
+		{"name":"Czechia", "pop":"10.55 Million", "url":"Czechia", "link":"http://tinyurl.com/h5xdbo5", "author":"Nico Trinkhaus", "cc":"-nc", 
 			"facts":["a","b"]},
-		{"name":"Denmark", "pop":"5.68 Million", "url":"Denmark", "link":" ", "author":" ", "cc":"", 
+		{"name":"Denmark", "pop":"5.68 Million", "url":"Denmark", "link":"http://tinyurl.com/h5gzpce", "author":"Jacob Surland", "cc":"-nc", 
 			"facts":["a","b"]},
-		{"name":"Djibouti", "pop":"888,000", "url":"Djibouti", "link":" ", "author":" ", "cc":"", 
+		{"name":"Djibouti", "pop":"888,000", "url":"Djibouti", "link":"http://tinyurl.com/hgekvav", "author":"DVIDSHUB", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Dominica", "pop":"73,000", "url":"Dominica", "link":" ", "author":" ", "cc":"", 
+		{"name":"Dominica", "pop":"73,000", "url":"Dominica", "link":"http://tinyurl.com/heexzcx", "author":"Matthias Ripp", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Dominican Republic", "pop":"10.53 Million", "url":"Dominican+Republic", "link":" ", "author":" ", "cc":"", 
+		{"name":"Dominican Republic", "pop":"10.53 Million", "url":"Dominican+Republic", "link":"http://tinyurl.com/z7r2yh3", "author":"Joe deSousa", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"Ecuador", "pop":"16.14 Million", "url":"Ecuador", "link":" ", "author":" ", "cc":"", 
+		{"name":"Ecuador", "pop":"16.14 Million", "url":"Ecuador", "link":"http://tinyurl.com/hdm65ok", "author":"- Adam Reeder -", "cc":"-nc", 
 			"facts":["a","b"]},
-		{"name":"Egypt", "pop":"91.51 Million", "url":"Egypt", "link":" ", "author":" ", "cc":"", 
+		{"name":"Egypt", "pop":"91.51 Million", "url":"Egypt", "link":"http://tinyurl.com/hkgunwy", "author":"Edgardo W. Olivera", "cc":"", 
 			"facts":["a","b"]},
-		{"name":"El Salvador", "pop":"845,000", "url":"El+Salvador", "link":" ", "author":" ", "cc":"", 
+		{"name":"El Salvador", "pop":"845,000", "url":"El+Salvador", "link":" ", "author":"", "cc":"", 
 			"facts":["a","b"]},
 		{"name":"Equatorial Guinea", "pop":"35.85 Million", "url":"Equatorial+Guinea", "link":" ", "author":" ", "cc":"", 
 			"facts":["a","b"]},
@@ -455,7 +455,7 @@ function pickNewCountry(){
 	console.log("Fact is " + countryObj.countries[randNum].facts[countryObj.countries.factNum]);
 
 	// CHANGE THIS AT END TO randNum
-	return countryObj.countries[43];
+	return countryObj.countries[52];
 	//chrome.tabs.update(null, {url: "http://google.com/maps/place/" + countries[randNumber]});
 }
 
