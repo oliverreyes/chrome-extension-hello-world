@@ -22,7 +22,7 @@ html {
 	font-family: "Tahoma", Geneva, sans-serif;
 	color: white;
 	font-size: 48pt;
-	text-shadow: 0 0 2px gray;
+	text-shadow: 0 0 0.5px black;
 	line-height: 0;
 }
 
@@ -32,7 +32,7 @@ html {
 	left: 125px;
 	color: white;
 	font-size: 24pt;
-	text-shadow: 0 0 1px gray;
+	text-shadow: 0 0 0.5px black;
 	line-height: 0;
 }
 
