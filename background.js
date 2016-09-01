@@ -159,27 +159,27 @@ function pickNewCountry(){
 			"facts":["a","b"]},
 		{"name":"Guyana", "pop":"767,000", "url":"Guyana", "link":"http://tinyurl.com/z8rxfta", "author":"Stefan Krasowski", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Haiti", "pop":"10.71 Million", "url":"Haiti", "link":" ", "author":" ", "cc":"",
+		{"name":"Haiti", "pop":"10.71 Million", "url":"Haiti", "link":"http://tinyurl.com/z8l7hs8", "author":"Steve Bennett", "cc":"-nc",
 			"facts":["a","b"]},
-		{"name":"Honduras", "pop":"8.08 Million", "url":"Honduras", "link":" ", "author":" ", "cc":"",
+		{"name":"Honduras", "pop":"8.08 Million", "url":"Honduras", "link":"http://tinyurl.com/zvlojh9", "author":"Carl", "cc":"-nc-nd",
 			"facts":["a","b"]},
-		{"name":"Hungary", "pop":"9.84 Million", "url":"Hungary", "link":" ", "author":" ", "cc":"",
+		{"name":"Hungary", "pop":"9.84 Million", "url":"Hungary", "link":"http://tinyurl.com/ze8fc53", "author":"RobinTphoto", "cc":"-nc-nd",
 			"facts":["a","b"]},
-		{"name":"Iceland", "pop":"331,000", "url":"Iceland", "link":" ", "author":" ", "cc":"",
+		{"name":"Iceland", "pop":"331,000", "url":"Iceland", "link":"http://tinyurl.com/z94qks2", "author":"Andrés Nieto Porras", "cc":"-sa",
 			"facts":["a","b"]},
-		{"name":"India", "pop":"1.31 Billion", "url":"India", "link":" ", "author":" ", "cc":"",
+		{"name":"India", "pop":"1.31 Billion", "url":"India", "link":"http://tinyurl.com/gmmf4xs", "author":"sandeepachetan.com travel photography", "cc":"-nc-nd",
 			"facts":["a","b"]},
-		{"name":"Indonesia", "pop":"257.56 Million", "url":"Indonesia", "link":" ", "author":" ", "cc":"",
+		{"name":"Indonesia", "pop":"257.56 Million", "url":"Indonesia", "link":"http://tinyurl.com/hnapk75", "author":"Matthias Ripp", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Iran", "pop":"79.11 Million", "url":"Iran", "link":"http://tinyurl.com/jmyeya8", "author":"Michael Foley", 
+		{"name":"Iran", "pop":"79.11 Million", "url":"Iran", "link":"http://tinyurl.com/jmyeya8", "author":"Michael Foley", "cc":"-nc-nd",
 			"facts":["a","b"]},
-		{"name":"Iraq", "pop":"36.42 Million", "url":"Iraq", "link":" ", "author":" ", "cc":"",
+		{"name":"Iraq", "pop":"36.42 Million", "url":"Iraq", "link":"http://tinyurl.com/jvey75u", "author":"Jayel Aheram", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Ireland", "pop":"4.64 Million", "url":"Ireland", "link":" ", "author":" ", "cc":"",
+		{"name":"Ireland", "pop":"4.64 Million", "url":"Ireland", "link":"http://tinyurl.com/zfrzjrf", "author":"Giuseppe Milo", "cc":"-nc",
 			"facts":["a","b"]},
-		{"name":"Israel", "pop":"8.38 Million", "url":"Israel", "link":" ", "author":" ", "cc":"",
+		{"name":"Israel", "pop":"8.38 Million", "url":"Israel", "link":"http://tinyurl.com/zeoa9p7", "author":"amira_a", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Italy", "pop":"60.8 Million", "url":"Italy", "link":" ", "author":" ", "cc":"",
+		{"name":"Italy", "pop":"60.8 Million", "url":"Italy", "link":"http://tinyurl.com/z5xzu4w", "author":"Giuseppe Milo", "cc":"-nc",
 			"facts":["a","b"]},
 		{"name":"Jamaica", "pop":"2.73 Million", "url":"Jamaica", "link":" ", "author":" ", "cc":"",
 			"facts":["a","b"]},
@@ -271,7 +271,7 @@ function pickNewCountry(){
 			"facts":["a","b"]},
 		{"name":"North+Korea", "pop":"25.15 Million", "url":"North+Korea", "link":" ", "author":" ", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Norway", "pop":"5.2 Million", "url":"Norway", "link":" ", "author":" ", "cc":"",
+		{"name":"Norway", "pop":"5.2 Million", "url":"Norway", "link":"http://tinyurl.com/jmc9l6z", "author":"Giuseppe Milo", "cc":"-nc",
 			"facts":["a","b"]},
 		{"name":"Oman", "pop":"4.49 Million", "url":"Oman", "link":" ", "author":" ", "cc":"",
 			"facts":["a","b"]},
@@ -455,7 +455,7 @@ function pickNewCountry(){
 	console.log("Fact is " + countryObj.countries[randNum].facts[countryObj.countries.factNum]);
 
 	// CHANGE THIS AT END TO randNum
-	return countryObj.countries[71];
+	return countryObj.countries[82];
 	//chrome.tabs.update(null, {url: "http://google.com/maps/place/" + countries[randNumber]});
 }
 
