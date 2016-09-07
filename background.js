@@ -273,27 +273,27 @@ function pickNewCountry(){
 			"facts":["a","b"]},
 		{"name":"Norway", "pop":"5.2 Million", "url":"Norway", "link":"http://tinyurl.com/jmc9l6z", "author":"Giuseppe Milo", "cc":"-nc",
 			"facts":["a","b"]},
-		{"name":"Oman", "pop":"4.49 Million", "url":"Oman", "link":" ", "author":" ", "cc":"",
+		{"name":"Oman", "pop":"4.49 Million", "url":"Oman", "link":"http://tinyurl.com/hvk86h8", "author":"Matteo Russo", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Pakistan", "pop":"188.92 Million", "url":"Pakistan", "link":" ", "author":" ", "cc":"",
+		{"name":"Pakistan", "pop":"188.92 Million", "url":"Pakistan", "link":"http://tinyurl.com/jzrzwn2", "author":"umer malik", "cc":"-nc-sa",
 			"facts":["a","b"]},
-		{"name":"Palau", "pop":"21,000", "url":"Palau", "link":" ", "author":" ", "cc":"",
+		{"name":"Palau", "pop":"21,000", "url":"Palau", "link":"http://tinyurl.com/guj5eov", "author":"LuxTonnerre", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Panama", "pop":"3.93 Million", "url":"Panama", "link":" ", "author":" ", "cc":"",
+		{"name":"Panama", "pop":"3.93 Million", "url":"Panama", "link":"http://tinyurl.com/gvebgzy", "author":"f. ermert", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Papua New Guinea", "pop":"7.62 Million", "url":"Papua+New+Guinea", "link":" ", "author":" ", "cc":"",
+		{"name":"Papua New Guinea", "pop":"7.62 Million", "url":"Papua+New+Guinea", "link":"http://tinyurl.com/hge2l8t", "author":"Stefan Krasowski", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Paraguay", "pop":"6.64 Million", "url":"Paraguay", "link":" ", "author":" ", "cc":"",
+		{"name":"Paraguay", "pop":"6.64 Million", "url":"Paraguay", "link":"http://tinyurl.com/h3czk4y", "author":"Alejandro Valdez Sanabria", "cc":"-nc-nd",
 			"facts":["a","b"]},
-		{"name":"Peru", "pop":"31.38 Million", "url":"Peru", "link":" ", "author":" ", "cc":"",
+		{"name":"Peru", "pop":"31.38 Million", "url":"Peru", "link":"http://tinyurl.com/j9o2wyk", "author":"Art DiNo", "cc":"-sa",
 			"facts":["a","b"]},
-		{"name":"Philippines", "pop":"100.7 Million", "url":"Philippines", "link":" ", "author":" ", "cc":"",
+		{"name":"Philippines", "pop":"100.7 Million", "url":"Philippines", "link":"http://tinyurl.com/jq92g8r", "author":"Loïc Lagarde", "cc":"-nc-nd",
 			"facts":["a","b"]},
-		{"name":"Poland", "pop":"38 Million", "url":"Poland", "link":" ", "author":" ", "cc":"",
+		{"name":"Poland", "pop":"38 Million", "url":"Poland", "link":"http://tinyurl.com/zoevqo2", "author":"Rafal Zych", "cc":"-nc-nd",
 			"facts":["a","b"]},
-		{"name":"Portugal", "pop":"10.35 Million", "url":"Portugal", "link":" ", "author":" ", "cc":"",
+		{"name":"Portugal", "pop":"10.35 Million", "url":"Portugal", "link":"http://tinyurl.com/jcoesll", "author":"Giuseppe Milo", "cc":"-nc",
 			"facts":["a","b"]},
-		{"name":"Qatar", "pop":"2.24 Million", "url":"Qatar", "link":" ", "author":" ", "cc":"",
+		{"name":"Qatar", "pop":"2.24 Million", "url":"Qatar", "link":" ", "author":"Derek Bruff", "cc":"",
 			"facts":["a","b"]},
 		{"name":"Romania", "pop":"19.83 Million", "url":"Romania", "link":" ", "author":" ", "cc":"",
 			"facts":["a","b"]},
@@ -455,7 +455,7 @@ function pickNewCountry(){
 	console.log("Fact is " + $countryObj.countries[randNum].facts[$countryObj.countries.factNum]);
 
 	// CHANGE THIS AT END TO randNum
-	return $countryObj.countries[128];
+	return $countryObj.countries[139];
 	//chrome.tabs.update(null, {url: "http://google.com/maps/place/" + countries[randNumber]});
 }
 
