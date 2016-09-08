@@ -293,19 +293,19 @@ function pickNewCountry(){
 			"facts":["a","b"]},
 		{"name":"Portugal", "pop":"10.35 Million", "url":"Portugal", "link":"http://tinyurl.com/jcoesll", "author":"Giuseppe Milo", "cc":"-nc",
 			"facts":["a","b"]},
-		{"name":"Qatar", "pop":"2.24 Million", "url":"Qatar", "link":" ", "author":"Derek Bruff", "cc":"",
+		{"name":"Qatar", "pop":"2.24 Million", "url":"Qatar", "link":"http://tinyurl.com/h4279u6", "author":"Derek Bruff", "cc":"-nc",
 			"facts":["a","b"]},
-		{"name":"Romania", "pop":"19.83 Million", "url":"Romania", "link":" ", "author":" ", "cc":"",
+		{"name":"Romania", "pop":"19.83 Million", "url":"Romania", "link":"http://tinyurl.com/jjkd2ao", "author":"fusion-of-horizons", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Russia", "pop":"144.1 Million", "url":"Russia", "link":" ", "author":" ", "cc":"",
+		{"name":"Russia", "pop":"144.1 Million", "url":"Russia", "link":"http://tinyurl.com/h7c474o", "author":"Mikhail Koninin", "cc":"-nc",
 			"facts":["a","b"]},
-		{"name":"Rwanda", "pop":"11.61 Million", "url":"Rwanda", "link":" ", "author":" ", "cc":"",
+		{"name":"Rwanda", "pop":"11.61 Million", "url":"Rwanda", "link":"http://tinyurl.com/hdudujh", "author":"Mone Loe", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Saint Kitts and Nevis", "pop":"56,000", "url":"Saint+Kitts+and+Nevis", "link":" ", "author":" ", "cc":"",
+		{"name":"Saint Kitts and Nevis", "pop":"56,000", "url":"Saint+Kitts+and+Nevis", "link":"", "author":"", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Saint Lucia", "pop":"185,000", "url":"Saint+Lucia", "link":" ", "author":" ", "cc":"",
+		{"name":"Saint Lucia", "pop":"185,000", "url":"Saint+Lucia", "link":"http://tinyurl.com/gub7of4", "author":"Jon Callas", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Saint Vincent and the Grenadines", "pop":"109,000", "url":"Saint+Vincent+and+the+Grenadines", "link":" ", "author":" ", "cc":"",
+		{"name":"Saint Vincent and the Grenadines", "pop":"109,000", "url":"Saint+Vincent+and+the+Grenadines", "link":"http://tinyurl.com/jdxgun6", "author":"Christian Lendl", "cc":"",
 			"facts":["a","b"]},
 		{"name":"Samoa", "pop":"193,000", "url":"Samoa", "link":" ", "author":" ", "cc":"",
 			"facts":["a","b"]},
@@ -455,7 +455,7 @@ function pickNewCountry(){
 	console.log("Fact is " + $countryObj.countries[randNum].facts[$countryObj.countries.factNum]);
 
 	// CHANGE THIS AT END TO randNum
-	return $countryObj.countries[139];
+	return $countryObj.countries[145];
 	//chrome.tabs.update(null, {url: "http://google.com/maps/place/" + countries[randNumber]});
 }
 
