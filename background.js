@@ -93,11 +93,11 @@ function pickNewCountry(){
 			"facts":["a","b"]},
 		{"name":"Comoros", "pop":"788,000", "url":"Comoros", "link":"http://tinyurl.com/hkglwdk", "author":"Chamara Irugalratne", "cc":"-nc-nd", 
 			"facts":["a","b"]},
-		{"name":"Democratic Republic of the Congo", "pop":"77.27 Million", "url":"Democratic+Republic+of+the+Congo", "link":"http://tinyurl.com/jr5hbws", "author":"Tom Jutte", "cc":"-nc-nd", 
+		{"name":"Democratic Republic of the Congo", "pop":"77.27 Million", "url":"Democratic+Republic+of+the+Congo", "link":"http://tinyurl.com/z4b8p54", "author":"Roberto Saltori", "cc":"-nc", 
 			"facts":["a","b"]},
 		{"name":"Republic of the Congo", "pop":"4.62 Million", "url":"Republic+of+the+Congo", "link":"http://tinyurl.com/hbzfqh3", "author":"Paul Godard", "cc":"-nc-nd", 
 			"facts":["a","b"]},
-		{"name":"Costa Rica", "pop":"4.81 Million", "url":"Costa+Rica", "link":"http://tinyurl.com/go6ffs3", "author":"Ralph Earlandson", "cc":"-nc-sa", 
+		{"name":"Costa Rica", "pop":"4.81 Million", "url":"Costa+Rica", "link":"http://tinyurl.com/jlo93uy", "author":"Ralph Earlandson", "cc":"-nc", 
 			"facts":["a","b"]},
 		{"name":"Cote d'Ivoire", "pop":"22.7 Million", "url":"Cote+dIvoire", "link":"http://tinyurl.com/gsewwhw", "author":"Guillaume Mignot", "cc":"-nc-nd", 
 			"facts":["a","b"]},
@@ -377,104 +377,52 @@ function pickNewCountry(){
 			"facts":["a","b"]},
 		{"name":"Tuvalu", "pop":"10,000", "url":"Tuvalu", "link":"http://tinyurl.com/j9ocabm", "author":"Nick Hobgood", "cc":"-nc",
 			"facts":["a","b"]},
-		{"name":"Uganda", "pop":"39.03 Million", "url":"Uganda", "link":" ", "author":" ", "cc":"",
+		{"name":"Uganda", "pop":"39.03 Million", "url":"Uganda", "link":"http://tinyurl.com/jrevuuk", "author":"Jake Stimpson", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Ukraine", "pop":"45.2 Million", "url":"Ukraine", "link":" ", "author":" ", "cc":"",
+		{"name":"Ukraine", "pop":"45.2 Million", "url":"Ukraine", "link":"http://tinyurl.com/jcdkyaw", "author":"Viktor Kirilko", "cc":"-nc-nd",
 			"facts":["a","b"]},
-		{"name":"United Arab Emirates", "pop":"9.16 Million", "url":"United+Arab+Emirates", "link":" ", "author":" ", "cc":"",
+		{"name":"United Arab Emirates", "pop":"9.16 Million", "url":"United+Arab+Emirates", "link":"http://tinyurl.com/jxarmja", "author":"Andrew Moore", "cc":"-sa",
 			"facts":["a","b"]},
-		{"name":"United Kingdom", "pop":"65.14 Million", "url":"United+Kingdom", "link":" ", "author":" ", "cc":"",
+		{"name":"United Kingdom", "pop":"65.14 Million", "url":"United+Kingdom", "link":"http://tinyurl.com/gobcoz2", "author":"Giuseppe Milo", "cc":"-nc",
 			"facts":["a","b"]},
-		{"name":"United States of America", "pop":"321.42 Million", "url":"United+States+of+America", "link":" ", "author":" ", "cc":"",
+		{"name":"United States of America", "pop":"321.42 Million", "url":"United+States+of+America", "link":"http://tinyurl.com/zz7stpe", "author":"Giuseppe Milo", "cc":"-nc",
 			"facts":["a","b"]},
-		{"name":"Uruguay", "pop":"3.43 Million", "url":"Uruguay", "link":" ", "author":" ", "cc":"",
+		{"name":"Uruguay", "pop":"3.43 Million", "url":"Uruguay", "link":"http://tinyurl.com/gszw85w", "author":"Jimmy Baikovicius", "cc":"-sa",
 			"facts":["a","b"]},
-		{"name":"Uzbekistan", "pop":"31.3 Million", "url":"Uzbekistan", "link":" ", "author":" ", "cc":"",
+		{"name":"Uzbekistan", "pop":"31.3 Million", "url":"Uzbekistan", "link":"http://tinyurl.com/hh6hy3e", "author":"2008+", "cc":"-nc-nd",
 			"facts":["a","b"]},
-		{"name":"Vanuatu", "pop":"265,000", "url":"Vanuatu", "link":" ", "author":" ", "cc":"",
+		{"name":"Vanuatu", "pop":"265,000", "url":"Vanuatu", "link":"http://tinyurl.com/hlrn5xe", "author":"David Cobbin", "cc":"-nd",
 			"facts":["a","b"]},
-		{"name":"Vatican City", "pop":"451", "url":"Vatican+City", "link":" ", "author":" ", "cc":"",
+		{"name":"Vatican City", "pop":"451", "url":"Vatican+City", "link":"http://tinyurl.com/hjsabyl", "author":"Vicente Villamón", "cc":"-sa",
 			"facts":["a","b"]}, // pop 2012 http://data.un.org/Data.aspx?d=POP&f=tableCode%3A240
-		{"name":"Venezuela", "pop":"31.12 Million", "url":"Venezuela", "link":" ", "author":" ", "cc":"",
+		{"name":"Venezuela", "pop":"31.12 Million", "url":"Venezuela", "link":"http://tinyurl.com/hpgeb7h", "author":"Fernando Flores", "cc":"-sa",
 			"facts":["a","b"]},
-		{"name":"Vietnam", "pop":"91.7 Million", "url":"Vietnam", "link":" ", "author":" ", "cc":"",
+		{"name":"Vietnam", "pop":"91.7 Million", "url":"Vietnam", "link":"http://tinyurl.com/z57ydt2", "author":"Anh Dinh", "cc":"-nc",
 			"facts":["a","b"]},
-		{"name":"Yemen", "pop":"26.83 Million", "url":"Yemen", "link":" ", "author":" ", "cc":"",
+		{"name":"Yemen", "pop":"26.83 Million", "url":"Yemen", "link":"http://tinyurl.com/zbpx687", "author":"Richard Messenger", "cc":"-nc",
 			"facts":["a","b"]},
-		{"name":"Zambia", "pop":"16.21 Million", "url":"Zambia", "link":" ", "author":" ", "cc":"",
+		{"name":"Zambia", "pop":"16.21 Million", "url":"Zambia", "link":"http://tinyurl.com/zhaja4t", "author":"Ninara", "cc":"",
 			"facts":["a","b"]},
-		{"name":"Zimbabwe", "pop":"15.6 Million", "url":"Zimbabwe", "link":" ", "author":" ", "cc":"",
+		{"name":"Zimbabwe", "pop":"15.6 Million", "url":"Zimbabwe", "link":"http://tinyurl.com/gokqt9f", "author":"Vince O'Sullivan", "cc":"-nc",
 			"facts":["a","b"]},
 		]
 	};
 
-/*
-	var countries = ["Afghanistan", "Albania", "Algeria", "Andorra", "Angola", 
-	"Antigua+and+Barbuda", "Argentina", "Armenia", "Australia", "Austria", 
-	"Azerbaijan", "Bahamas", "Bahrain", "Bangladesh", "Barbados", "Belarus", 
-	"Belgium", "Belize", "Benin", "Bhutan", "Bolivia", "Bosnia+and+Herzegovina", 
-	"Botswana", "Brazil", "Brunei", "Bulgaria", "Burkina+Faso", "Burma", "Burundi", 
-	"Cabo Verde", "Cambodia", "Cameroon", "Canada", "Central+African+Republic", "Chad", 
-	"Chile", "China", "Colombia", "Comoros", "Democratic+Republic+of+the+Congo", 
-	"Republic+of+the+Congo", "Costa+Rica", "Cote+d'Ivoire", "Croatia", "Cuba", "Cyprus", 
-	"Czechia", "Denmark", "Djibouti", "Dominica", "Dominican+Republic", "Ecuador", 
-	"Egypt", "El+Salvador", "Equatorial+Guinea", "Eritrea", "Estonia", "Ethiopia", 
-	"Fiji", "Finland", "France", "Gabon", "Gambia", "Georgia", "Germany", "Ghana", 
-	"Greece", "Grenada", "Guatemala", "Guinea", "Guinea-Bissau", "Guyana", "Haiti", 
-	"Honduras", "Hungary", "Iceland", "India", "Indonesia", "Iran", "Iraq", "Ireland", 
-	"Israel", "Italy", "Jamaica", "Japan", "Jordan", "Kazakhstan", "Kenya", "Kiribati", 
-	"Kosovo", "Kuwait", "Kyrgyzstan", "Laos", "Latvia", "Lebanon", "Lesotho", "Liberia", 
-	"Libya", "Liechtenstein", "Lithuania", "Luxembourg", "Macedonia", "Madagascar", 
-	"Malawi", "Malaysia", "Maldives", "Mali", "Malta", "Marshall+Islands", "Mauritania", 
-	"Mauritius", "Mexico", "Micronesia", "Moldova", "Monaco", "Mongolia", "Montenegro", 
-	"Morocco", "Mozambique", "Namibia", "Nauru", "Nepal", "Netherlands", "New+Zealand", 
-	"Nicaragua", "Niger", "Nigeria", "North+Korea", "Norway", "Oman", "Pakistan", "Palau", 
-	"Panama", "Papua+New+Guinea", "Paraguay", "Peru", "Philippines", "Poland", "Portugal", 
-	"Qatar", "Romania", "Russia", "Rwanda", "Saint+Kitts+and+Nevis", "Saint+Lucia", 
-	"Saint+Vincent+and+the+Grenadines", "Samoa", "San+Marino", "Sao+Tome+and+Principe", 
-	"Saudi+Arabia", "Senegal", "Serbia", "Seychelles", "Sierra+Leone", "Singapore", 
-	"Slovakia","Slovenia", "Solomon+Islands", "Somalia", "South+Africa", "South+Korea", 
-	"South+Sudan", "Spain", "Sri+Lanka", "Sudan", "Suriname", "Swaziland", "Sweden", 
-	"Switzerland", "Syria", "Tajikistan", "Tanzania", "Thailand", "Timor-Leste", "Togo",
-	"Tonga", "Trinidad+and+Tobago", "Tunisia", "Turkey", "Turkmenistan", "Tuvalu", "Uganda",
-	"Ukraine", "United+Arab+Emirates", "United+Kingdom", "United+States+of+America", 
-	"Uruguay", "Uzbekistan", "Vanuatu", "Vatican+City", "Venezuela", "Vietnam", "Yemen", 
-	"Zambia", "Zimbabwe"];
-*/
 	// pick a number
-	//var randNum = numberGenerator($countryObj.countries.length);
-	var randNum = numberGenerator(26);
+	var randNum = numberGenerator($countryObj.countries.length);
 	//var randFact = numberGenerator(countryObj.countries[randNum].facts.length);
 	//var randImg = numberGenerator(countryObj.countries[randNum].url.length);
-	// search country on google maps 
-	//console.log(countries[randNumber]);
 
 	$countryObj.countries["factNum"] = numberGenerator($countryObj.countries[randNum].facts.length); // MIGHT HAVE TO DO IN OVERRIDE.JS
 
 	console.log("Length is " + $countryObj.countries.length);
 	console.log("Fact is " + $countryObj.countries[randNum].facts[$countryObj.countries.factNum]);
 
-	// CHANGE THIS AT END TO randNum
-	return $countryObj.countries[180];
+	return $countryObj.countries[randNum];
 	//chrome.tabs.update(null, {url: "http://google.com/maps/place/" + countries[randNumber]});
 }
 
 // function numberGenerator returns number between 0-194 
-// Need to implement with variable parameter
 function numberGenerator(n) {
 	return Math.floor(Math.random() * n);
-
-	//return Math.floor(Math.random() * 29);
-	//return Math.floor(Math.random() * 195);
 }
-
-/* Maybe this function is not needed 
-function changeBackground(){
-	console.log("change background func");
-	//document.body.style.backgroundImage = "url(" + pickNewCountry() + ".jpg)";
-	alert(document.body.style.backgroundImage);
-	return "United+States";
-}
-*/
-
-

@@ -16,7 +16,7 @@ function init(){
 		// country name text font characteristics 
 		if (response.result.name.length > 19) {
 			name.innerHTML = "<h1>" + response.result.name + "</h1>";
-			name.style.fontSize = "27pt";
+			name.style.fontSize = "24pt";
 			name.style.wordSpacing = "-9px";
 			name.style.lineHeight = "0.4";
 		}
