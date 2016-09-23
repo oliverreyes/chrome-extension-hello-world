@@ -11,6 +11,7 @@ function init(){
 		var name = document.getElementById('name');
 		var pop = document.getElementById('pop');
 		var att = document.getElementById('att');
+		var map = document.getElementById('map');
 		// set image, cover keeps aspect ratio
 		bg.style.backgroundImage = "url(images/" + response.result.url + ".jpg)";
 		// country name text font characteristics 
@@ -29,7 +30,8 @@ function init(){
 			name.innerHTML = "<h1>" + response.result.name + "</h1>";
 		}
 		pop.innerHTML = "<h3>Population of " + response.result.pop + "</h3>";
-		att.innerHTML = "<a href='" + response.result.link + "'>Photo</a> by " + response.result.author + "/<a href='https://creativecommons.org/licenses/by" + response.result.cc + "/2.0/legalcode'>CC BY</a>";  
+		att.innerHTML = "<a href='" + response.result.link + "'>Photo</a> by " + response.result.author + "/<a href='https://creativecommons.org/licenses/by" + response.result.cc + "/2.0/legalcode'>CC BY</a>"; 
+		map.innerHTML = "<a href='http://google.com/maps/place/" + response.result.url + "'>Map</a>"; 
 
 		console.log("it passed it");
 	});
